@@ -4,7 +4,8 @@ def fun():
     a=2
     b=3
     v=8
-    c=a+b+v
+    k=8
+    c=a+b+v+k
 end_time= time.time()
 fun()
 timetaken = end_time - start_time
